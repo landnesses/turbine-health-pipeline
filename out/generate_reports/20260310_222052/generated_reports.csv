@@ -1,0 +1,64 @@
+﻿StationId,date,health_label,summary_hint,prompt,report_text
+2304515,2016-01-01,ATTENTION,2016-01-01 turbine 2304515; 1 abnormal events; total abnormal duration 420 min; alarm codes: 3411; active window 00:00 to 07:00; health label: ATTENTION,"<|im_start|>system
+Read the wind turbine daily health metadata and generate a short maintenance-oriented summary with a health label and action advice.<|im_end|>
+<|im_start|>user
+StationId: 2304515
+Date: 2016-01-01
+Event count: 1
+Total abnormal minutes: 420
+Max single event minutes: 420
+Stopping event count: 0
+Distinct alarm code count: 1
+Alarm codes: 3411
+Alarm descriptions: Unknown alarm
+Top severity: ATTENTION
+First event time: 00:00
+Last event time: 07:00
+Rule-based health label: ATTENTION
+Summary hint: 2016-01-01 turbine 2304515; 1 abnormal events; total abnormal duration 420 min; alarm codes: 3411; active window 00:00 to 07:00; health label: ATTENTION<|im_end|>
+<|im_start|>assistant
+","Health label: ATTENTION
+Summary: On 2016-01-01, turbine 2304515 recorded 1 abnormal event (alarm code 3411: Unknown) lasting 420 minutes from 00:00 to 07:00. No stopping events were reported.
+Advice: Review SCADA/event logs for alarm 3411 details and confirm whether it corresponds to an operational issue or indicates a non-recoverable condition. If the alarm recurs or causes extended downtime, schedule an inspection of the turbine control system and related sensors/communications links."
+2304517,2016-01-01,ALARM,2016-01-01 turbine 2304517; 1 abnormal events; total abnormal duration 0 min; 1 stopping events; alarm codes: 3130; active window 07:00 to 07:00; health label: ALARM,"<|im_start|>system
+Read the wind turbine daily health metadata and generate a short maintenance-oriented summary with a health label and action advice.<|im_end|>
+<|im_start|>user
+StationId: 2304517
+Date: 2016-01-01
+Event count: 1
+Total abnormal minutes: 0
+Max single event minutes: 0
+Stopping event count: 1
+Distinct alarm code count: 1
+Alarm codes: 3130
+Alarm descriptions: Pitch lubrication
+Top severity: ALARM
+First event time: 07:00
+Last event time: 07:00
+Rule-based health label: ALARM
+Summary hint: 2016-01-01 turbine 2304517; 1 abnormal events; total abnormal duration 0 min; 1 stopping events; alarm codes: 3130; active window 07:00 to 07:00; health label: ALARM<|im_end|>
+<|im_start|>assistant
+","Health label: ALARM
+Summary: On 2016-01-01, turbine 2304517 recorded 1 event (alarm code 3130: Pitch lubrication) at 07:00. The event was a stopping event; reported abnormal duration was 0 minutes.
+Advice: Review SCADA/event log details for alarm 3130 during 07:00 to confirm pitch lubrication system status and any corrective actions taken. If the alarm recurs or persists, schedule an inspection of the pitch lubrication system per OEM procedure."
+2304527,2016-01-01,ALARM,2016-01-01 turbine 2304527; 1 abnormal events; total abnormal duration 0 min; 1 stopping events; alarm codes: 3130; active window 07:10 to 07:10; health label: ALARM,"<|im_start|>system
+Read the wind turbine daily health metadata and generate a short maintenance-oriented summary with a health label and action advice.<|im_end|>
+<|im_start|>user
+StationId: 2304527
+Date: 2016-01-01
+Event count: 1
+Total abnormal minutes: 0
+Max single event minutes: 0
+Stopping event count: 1
+Distinct alarm code count: 1
+Alarm codes: 3130
+Alarm descriptions: Pitch lubrication
+Top severity: ALARM
+First event time: 07:10
+Last event time: 07:10
+Rule-based health label: ALARM
+Summary hint: 2016-01-01 turbine 2304527; 1 abnormal events; total abnormal duration 0 min; 1 stopping events; alarm codes: 3130; active window 07:10 to 07:10; health label: ALARM<|im_end|>
+<|im_start|>assistant
+","Health label: ALARM
+Summary: On 2016-01-01, turbine 2304527 recorded 1 event (alarm code 3130: Pitch lubrication) at 07:10. The event was a stopping event; reported abnormal duration was 0 minutes.
+Advice: Review SCADA/event log details for alarm 3130 during 07:10 to confirm pitch lubrication system status and any corrective actions taken. If the alarm recurs or persists, schedule an inspection of the pitch lubrication system per OEM procedure."

@@ -1,0 +1,2 @@
+run_timestamp,model_path,device,input_rows,output_rows,instruction
+20260310_222052,qwen_0_5_fine,cuda,3,3,Read the wind turbine daily health metadata and generate a short maintenance-oriented summary with a health label and action advice.

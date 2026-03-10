@@ -1,0 +1,30 @@
+StationId: 2304515
+Date: 2016-01-01
+Health label: ATTENTION
+Report:
+Health label: ATTENTION
+Summary: On 2016-01-01, turbine 2304515 recorded 1 abnormal event (alarm code 3411: Unknown) lasting 420 minutes from 00:00 to 07:00. No stopping events were reported.
+Advice: Review SCADA/event logs for alarm 3411 details and confirm whether it corresponds to an operational issue or indicates a non-recoverable condition. If the alarm recurs or causes extended downtime, schedule an inspection of the turbine control system and related sensors/communications links.
+
+================================================================================
+
+StationId: 2304517
+Date: 2016-01-01
+Health label: ALARM
+Report:
+Health label: ALARM
+Summary: On 2016-01-01, turbine 2304517 recorded 1 event (alarm code 3130: Pitch lubrication) at 07:00. The event was a stopping event; reported abnormal duration was 0 minutes.
+Advice: Review SCADA/event log details for alarm 3130 during 07:00 to confirm pitch lubrication system status and any corrective actions taken. If the alarm recurs or persists, schedule an inspection of the pitch lubrication system per OEM procedure.
+
+================================================================================
+
+StationId: 2304527
+Date: 2016-01-01
+Health label: ALARM
+Report:
+Health label: ALARM
+Summary: On 2016-01-01, turbine 2304527 recorded 1 event (alarm code 3130: Pitch lubrication) at 07:10. The event was a stopping event; reported abnormal duration was 0 minutes.
+Advice: Review SCADA/event log details for alarm 3130 during 07:10 to confirm pitch lubrication system status and any corrective actions taken. If the alarm recurs or persists, schedule an inspection of the pitch lubrication system per OEM procedure.
+
+================================================================================
+

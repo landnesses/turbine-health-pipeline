@@ -1,0 +1,4 @@
+event_id,StationId,start_time,end_time,duration_min,rows,alarm_code_mode,alarm_description,stopping_alarm
+1,2304515,2016-01-01 00:00:00,2016-01-01 07:00:00,420,43,3411,Unknown alarm,0
+2,2304517,2016-01-01 07:00:00,2016-01-01 07:00:00,0,1,3130,Pitch lubrication,1
+3,2304527,2016-01-01 07:10:00,2016-01-01 07:10:00,0,1,3130,Pitch lubrication,1

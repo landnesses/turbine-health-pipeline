@@ -1,0 +1,2 @@
+run_timestamp,input_csv,alarm_desc_csv,time_gap_minutes,total_rows,anomaly_rows,event_count
+20260310_222052,data/raw/2016_01_01.csv,data/raw/Hill_of_Towie_alarms_description.csv,10,2944,45,3

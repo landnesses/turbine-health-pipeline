@@ -1,0 +1,4 @@
+﻿StationId,date,event_count,total_abnormal_minutes,max_single_event_minutes,stopping_event_count,distinct_alarm_code_count,alarm_codes,alarm_descriptions,top_severity,first_event_time,last_event_time,health_label,summary_hint
+2304515,2016-01-01,1,420,420,0,1,3411,Unknown alarm,ATTENTION,00:00,07:00,ATTENTION,2016-01-01 turbine 2304515; 1 abnormal events; total abnormal duration 420 min; alarm codes: 3411; active window 00:00 to 07:00; health label: ATTENTION
+2304517,2016-01-01,1,0,0,1,1,3130,Pitch lubrication,ALARM,07:00,07:00,ALARM,2016-01-01 turbine 2304517; 1 abnormal events; total abnormal duration 0 min; 1 stopping events; alarm codes: 3130; active window 07:00 to 07:00; health label: ALARM
+2304527,2016-01-01,1,0,0,1,1,3130,Pitch lubrication,ALARM,07:10,07:10,ALARM,2016-01-01 turbine 2304527; 1 abnormal events; total abnormal duration 0 min; 1 stopping events; alarm codes: 3130; active window 07:10 to 07:10; health label: ALARM
